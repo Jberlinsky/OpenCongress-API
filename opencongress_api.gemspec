@@ -3,13 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "opencongress_api/version"
 
 Gem::Specification.new do |s|
-  s.name        = "OpenCongress API"
+  s.name        = "OpenCongressAPI"
   s.version     = OpencongressApi::VERSION
   s.authors     = ["Jason Berlinsky"]
   s.email       = ["jason@jasonberlinsky.com"]
   s.homepage    = "http://www.jasonberlinsky.com/"
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q(A wrapper for the OpenCongress API)
+  s.description = %q(An easy to use wrapper for the OpenCongress API)
 
   s.rubyforge_project = "opencongress_api"
 
