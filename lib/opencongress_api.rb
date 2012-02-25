@@ -18,7 +18,7 @@ module OpenCongressApi
 
     class Client
         FETCH_TYPES = [:people, :hot_bills, :most_blogged_bills,
-                      :bills_in_the_news, :most_commented,
+                      :bills_in_the_news, :most_commented_bills,
                       :most_tracked_bills, :most_supported_bills,
                       :most_opposed_bills]
         def self.fetch(type, options = {})
